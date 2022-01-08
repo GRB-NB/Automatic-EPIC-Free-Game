@@ -25,4 +25,4 @@ jobs:
 
       - name: Run main
         run: |
-          python epicgames_claimer.py -u ${{ secrets.EPIC_EMAIL }} -p ${{ secrets.EPIC_PASSWORD }} -ps ${{ secrets.PUSH_SERVERCHAN_SENDKEY }} --once
+          python epicgames_claimer.py -u ${{ secrets.EPIC_EMAIL }} -p ${{ secrets.EPIC_PASSWORD }} -ps ${{ secrets.PUSH_SERVERCHAN_SENDKEY }} -pda ${{ secrets.PUSH_DINGTALK_ACCESS_TOKEN }} -pds ${{ secrets.PUSH_DINGTALK_SECRET }} --once
