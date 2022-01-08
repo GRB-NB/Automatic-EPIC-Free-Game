@@ -71,7 +71,7 @@ class texts:
         NOTIFICATION_CONTENT_OWNED_ALL = "Все еженедельные бесплатные игры, которые можно получить, уже находятся в библиотеке."
 
 
-local_texts = texts.en
+local_texts = texts.zh
 
 
 if "--enable-automation" in launcher.DEFAULT_ARGS:
