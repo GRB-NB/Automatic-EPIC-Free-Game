@@ -1,9 +1,9 @@
-name: main
+name: master
 
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 0 * * *"
+    - cron: "0 1,23 * * *"
   push:
     branches: [master]
 
@@ -23,6 +23,6 @@ jobs:
           pip install -r requirements.txt -t .
           sudo sh install_dependencies.sh
 
-      - name: Run main
+      - name: Run master
         run: |
           python epicgames_claimer.py -u ${{ secrets.EPIC_EMAIL }} -p ${{ secrets.EPIC_PASSWORD }} -ps ${{ secrets.PUSH_SERVERCHAN_SENDKEY }} -pda ${{ secrets.PUSH_DINGTALK_ACCESS_TOKEN }} -pds ${{ secrets.PUSH_DINGTALK_SECRET }} --once
