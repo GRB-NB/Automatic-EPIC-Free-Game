@@ -1,4 +1,4 @@
-name: master
+name: master2
 
 on:
   workflow_dispatch:
