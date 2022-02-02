@@ -1,9 +1,9 @@
-name: master
+name: master1
 
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 1,23 * * *"
+    - cron: "0 6,18 * * *"
   push:
     branches: [master]
 
