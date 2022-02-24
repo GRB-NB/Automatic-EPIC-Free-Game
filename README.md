@@ -1,12 +1,12 @@
 # Automatic-EPIC-Free-Game
 自动领取EPIC免费游戏
 
-云函数部署
+# 云函数部署
 打包epicgames_claimer.py和requirements.txt
 文件为zip，上传到云函数。执行方式填`epicgames_claimer.main_handler`
 
 ## 环境配置
-内存选512M即可，初始化超时时间65秒，执行超时时间900秒
+运行环境选python3，内存选512M即可，初始化超时时间65秒，执行超时时间900秒
 
 ## 环境变量
 ```
