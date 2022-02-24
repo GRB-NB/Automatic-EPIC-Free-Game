@@ -16,3 +16,12 @@ PUSH_WECHAT_QYWX_AM
 是否领取通知（false和true）
 PUSH_WHEN_OWNED_ALL
 ```
+## 在控制台输入以下命令（一行一行输入）
+
+```
+cd src
+pip3 install -r requirements.txt -t .
+mv bin/pyppeteer-install .
+./pyppeteer-install
+cp -r /root/.local/share/pyppeteer/local-chromium/*/chrome-linux .pip3 install -r requirements.txt -t .
+```
