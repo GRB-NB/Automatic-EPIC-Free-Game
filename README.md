@@ -28,3 +28,4 @@ mv bin/pyppeteer-install .
 ./pyppeteer-install
 cp -r /root/.local/share/pyppeteer/local-chromium/*/chrome-linux .pip3 install -r requirements.txt -t .
 ```
+## 最后部署测试
