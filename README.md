@@ -29,3 +29,5 @@ mv bin/pyppeteer-install .
 cp -r /root/.local/share/pyppeteer/local-chromium/*/chrome-linux .pip3 install -r requirements.txt -t .
 ```
 ## 最后部署测试
+
+详细请参考：[EpicGames Claimer](https://gitee.com/loa123/epicgames-claimer)
