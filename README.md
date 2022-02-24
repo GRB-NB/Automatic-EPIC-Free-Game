@@ -3,7 +3,7 @@
 
 云函数部署
 打包epicgames_claimer.py和requirements.txt
-文件为zip，上传到云函数。
+文件为zip，上传到云函数。执行方式填`epicgames_claimer.main_handler`
 
 ## 环境变量
 ```
